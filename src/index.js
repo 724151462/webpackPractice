@@ -6,6 +6,7 @@ import Vuex from 'vuex'
 import './assets/styles/global.styl'
 
 import Notification from './components/notification'
+import Tabs from './components/tabs'
 // import './assets/styles/global.styl'
 // import createRouter from './config/router'
 // import createStore from './store/store'
@@ -13,6 +14,7 @@ import Notification from './components/notification'
 // Vue.use(VueRouter)
 // Vue.use(Vuex)
 Vue.use(Notification)
+Vue.use(Tabs)
 
 // const router = createRouter()
 // const store = createStore()
